@@ -17,6 +17,22 @@ For a production build:
 pnpm build
 ```
 
+## Static HTML and GitHub Pages
+
+The maintainable source remains in Next.js. GitHub Actions runs the static
+export automatically on every push to `main`, producing `out/index.html`
+and the HTML files for all other routes before publishing them to GitHub
+Pages.
+
+To create the same static package locally:
+
+```bash
+GITHUB_PAGES=true GITHUB_REPOSITORY=arnab1811/BSF-seedhub pnpm build:pages
+```
+
+The public deployment is available at
+<https://arnab1811.github.io/BSF-seedhub/> after the Pages workflow completes.
+
 ## Repository structure
 
 - `app/` — routes, metadata and the shared visual system
