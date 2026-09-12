@@ -16,13 +16,13 @@ export const pathways: Pathway[] = [
 export const bsfProject: Project = {
   slug: "bsf",
   shortName: "BSF project",
-  title: "Farmers, plant diversity and stronger local value chains",
-  summary: "A regional project space connecting participatory management of plant genetic resources for food and agriculture with local value chains, knowledge and access.",
+  title: "Plant diversity, local value chains and shared knowledge",
+  summary: "The regional BSF project sub-hub brings together its partners, activities, news, publications and resources in one shared space.",
   status: "provisional",
   workstreams: [
-    { number: 1, title: "Diversity managed with farmers", description: "Adapted PGRFA are managed or improved through meaningful farmer participation." },
-    { number: 2, title: "Local value chains strengthened", description: "Production and consumption of adapted PGRFA are supported through more capable local value chains." },
-    { number: 3, title: "Data and knowledge shared", description: "Mechanisms improve the sharing of PGRFA data, materials, innovation and practical knowledge." },
+    { number: 1, title: "Adapted PGRFA managed or improved with farmers’ participation", description: "Activities support the conservation, management and improvement of adapted plant genetic resources through meaningful farmer participation." },
+    { number: 2, title: "Enhanced local value chains to improve the production and consumption of adapted PGRFA", description: "Activities connect crop diversity with production, processing, markets and consumption through stronger local value chains." },
+    { number: 3, title: "Mechanisms strengthened to enhance the sharing of PGRFA data, materials and knowledge", description: "Activities improve how project partners and wider seed-system actors exchange materials, information, evidence and practical learning." },
   ],
 };
 
