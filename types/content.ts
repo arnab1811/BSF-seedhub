@@ -13,7 +13,7 @@ export interface Resource {
   id: string;
   title: string;
   type: "Policy brief" | "Field insight" | "Regional perspective" | "External resource";
-  year: number;
+  year: number | string;
   summary: string;
   topics: string[];
   countries: string[];
