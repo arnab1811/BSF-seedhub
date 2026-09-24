@@ -26,7 +26,7 @@ const institutions = [
     location: "Uganda",
     logo: naroLogo,
     logoAlt: "National Agricultural Research Organisation logo",
-    note: "Proposed institutional lead for the renewed regional Hub; confirmation pending.",
+    note: "Confirmed BSF project coordinator. Proposed institutional host for the wider regional Hub; confirmation pending.",
     profile:
       "The Uganda National Genebank is part of NARO-PGRC. Its documented mandate covers conservation, management and sustainable use of Uganda’s PGRFA.",
     website:
@@ -38,7 +38,7 @@ const institutions = [
     location: "South Sudan",
     logo: universityOfJubaLogo,
     logoAlt: "University of Juba logo",
-    note: "Participant in the regional Hub dialogue; its future formal role remains to be confirmed.",
+    note: "Host of the 2022 multi-stakeholder event and part of the Hub’s historical and institutional network; it is not the intended future host.",
     profile:
       "Established in 1975, the University describes teaching, research, innovation and service to the community as central to its direction.",
     website: "https://uoj.edu.ss/",
@@ -49,7 +49,7 @@ const institutions = [
     location: "Regional",
     logo: allianceLogo,
     logoAlt: "Alliance of Bioversity International and CIAT logo",
-    note: "Project coordination, seed-systems learning and content development.",
+    note: "Seed-systems learning and content development.",
     profile:
       "The CGIAR Research Centre works at the intersection of agricultural biodiversity and food systems, with dedicated agrobiodiversity research and genebanks.",
     website: "https://alliancebioversityciat.org/",
@@ -85,16 +85,16 @@ const updates = [
     date: "Under discussion",
     type: "Hub governance",
     title: "Long-term ownership and hosting",
-    text: "Partners are considering which institution can lead the regional Hub and sustain its hosting, editorial and maintenance arrangements.",
+    text: "NARO-PGRC is the proposed institutional host for the wider regional Hub, pending its acceptance and confirmation of hosting, editorial and maintenance arrangements.",
   },
 ];
 
 const contacts = [
   {
-    name: "Ronnie Vernooy",
-    organisation: "Alliance of Bioversity International and CIAT",
-    focus: "Project coordination and content",
-    email: "r.vernooy@cgiar.org",
+    name: "NARO-PGRC",
+    organisation: "National Agricultural Research Organisation, Uganda",
+    focus: "BSF project coordinator",
+    email: "info@naro.go.ug",
   },
   {
     name: "Arnab Gupta",
@@ -216,7 +216,7 @@ export default async function BsfProjectPage() {
         </div>
         <p className="content-caveat">
           Working institutional list based on the current Hub discussions.
-          Formal project roles remain subject to partner confirmation.
+          NARO-PGRC’s BSF project coordination role is confirmed; other formal project roles remain subject to partner confirmation.
         </p>
       </section>
 
@@ -356,8 +356,8 @@ export default async function BsfProjectPage() {
           <p className="section-number">05 · Contact the team</p>
           <h2>Project contact points</h2>
           <p>
-            These contacts reflect the current coordination and technical
-            discussions. Additional country and institutional focal points will
+            These are current project coordination and technical contact
+            points. NARO-PGRC coordinates the BSF project; additional country and institutional focal points will
             be added after confirmation.
           </p>
         </div>
@@ -379,7 +379,7 @@ export default async function BsfProjectPage() {
             <p>Partner focal points</p>
             <h3>Country team contacts</h3>
             <span>
-              NARO-PGRC, University of Juba and other project partner contacts
+              Additional University of Juba and other country and project partner contacts
               will be listed after approval.
             </span>
           </article>
