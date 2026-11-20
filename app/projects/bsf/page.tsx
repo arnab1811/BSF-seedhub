@@ -26,7 +26,7 @@ const institutions = [
     location: "Uganda",
     logo: naroLogo,
     logoAlt: "National Agricultural Research Organisation logo",
-    note: "Confirmed BSF project coordinator. Proposed institutional host for the wider regional Hub; confirmation pending.",
+    note: "Confirmed BSF project coordinator.",
     profile:
       "The Uganda National Genebank is part of NARO-PGRC. Its documented mandate covers conservation, management and sustainable use of Uganda’s PGRFA.",
     website:
@@ -80,12 +80,6 @@ const updates = [
     type: "Mid-term review",
     title: "Project partners meet in Entebbe",
     text: "The review brought the team together to consider progress, content priorities and the next phase of collaboration.",
-  },
-  {
-    date: "Under discussion",
-    type: "Hub governance",
-    title: "Long-term ownership and hosting",
-    text: "NARO-PGRC is the proposed institutional host for the wider regional Hub, pending its acceptance and confirmation of hosting, editorial and maintenance arrangements.",
   },
 ];
 
