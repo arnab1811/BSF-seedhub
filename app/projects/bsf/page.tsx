@@ -373,7 +373,7 @@ export default async function BsfProjectPage() {
             <p>Partner focal points</p>
             <h3>Country team contacts</h3>
             <span>
-              Additional University of Juba and other country and project partner contacts
+              Additional confirmed country and project partner contacts
               will be listed after approval.
             </span>
           </article>
